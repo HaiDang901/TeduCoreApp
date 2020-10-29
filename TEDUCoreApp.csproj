@@ -13,4 +13,12 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TEDUCoreApp.Application\TEDUCoreApp.Application.csproj" />
+    <ProjectReference Include="..\TEDUCoreApp.Data.EF\TEDUCoreApp.Data.EF.csproj" />
+    <ProjectReference Include="..\TEDUCoreApp.Data\TEDUCoreApp.Data.csproj" />
+    <ProjectReference Include="..\TEDUCoreApp.Infrastructure\TEDUCoreApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\TEDUCoreApp.Utilities\TEDUCoreApp.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
